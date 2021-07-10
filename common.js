@@ -22,10 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
       top > sizes.height
     ) {
       // ルーペを非表示
-      loupe.style.display = 'none'
+      // loupe.style.display = 'none'
+      loupe.classList.remove('in')
     } else {
       // ルーペを表示
-      loupe.style.display = 'block'
+      // loupe.style.display = 'block'
+      loupe.classList.add('in')
       // マウスカーソルに合わせてルーペを追従
       loupe.style.top = `${top - 90}px`
       loupe.style.left = `${left - 90}px`
