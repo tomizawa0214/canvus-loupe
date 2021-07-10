@@ -1,0 +1,23 @@
+body {
+  margin: 100px;
+}
+
+#main {
+  position: relative;
+}
+#webpage {
+  position: relative;
+  width: 594px;
+  height: 332px;
+}
+#loupe {
+  display: none;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: url('151020_photo003.jpg') no-repeat center center #fff;
+  box-shadow: 0 0 5px #777, 0 0 10px #aaa inset;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: none;
+}
